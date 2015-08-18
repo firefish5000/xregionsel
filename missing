@@ -187,7 +187,7 @@ WARNING: \`$1' is missing on your system.  You should only need it if
     echo 1>&2 "\
 WARNING: \`$1' is needed, and you do not seem to have it handy on your
          system.  You might have modified some files without having the
-         proper tools for further handling them.  Check the \`README' file,
+         proper tools for further handling them.  Check the \`README.md' file,
          it often tells you about the needed prerequirements for installing
          this package.  You may also peek at any GNU archive site, in case
          some other package would contain this missing \`$1' program."

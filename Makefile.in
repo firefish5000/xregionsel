@@ -81,7 +81,7 @@ INCLUDES = -I/usr/X11R6/include $(X_CFLAGS) -I$(prefix)/include -I$(includedir) 
 
 man_MANS = xregionsel.1
 
-docs_DATA = README AUTHORS ChangeLog TODO
+docs_DATA = README.md AUTHORS ChangeLog TODO
 docsdir = $(prefix)/doc/xregionsel
 
 EXTRA_DIST =  xregionsel.spec xregionsel.1 $(docs_DATA)
@@ -98,7 +98,7 @@ MANS = $(man_MANS)
 NROFF = nroff
 DATA =  $(docs_DATA)
 
-DIST_COMMON =  README AUTHORS COPYING ChangeLog Makefile.am Makefile.in \
+DIST_COMMON =  README.md AUTHORS COPYING ChangeLog Makefile.am Makefile.in \
 TODO acinclude.m4 aclocal.m4 configure configure.ac configure.in \
 install-sh missing mkinstalldirs xregionsel.spec.in src/config.h.in \
 src/stamp-h.in

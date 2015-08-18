@@ -11,7 +11,7 @@ $(X_CFLAGS) -I$(prefix)/include -I$(includedir) -I.
 
 man_MANS = xregionsel.1
 
-docs_DATA = README AUTHORS ChangeLog TODO
+docs_DATA = README.md AUTHORS ChangeLog TODO
 docsdir = $(prefix)/doc/xregionsel
 
 EXTRA_DIST = \
