@@ -4,7 +4,7 @@ About
 Xregionsel is a tool developed from scrot which uses scrot's screen,
 window, and rectangular selection features to print X11 regions.
 
-Currently we follow the default formating of lolilolicon/xrectsel
+Currently we follow the default formating of [lolilolicon/xrectsel](https://github.com/lolilolicon/xrectsel)
 , and thus output
 
   WIDTHxHEIGHT+X+Y
